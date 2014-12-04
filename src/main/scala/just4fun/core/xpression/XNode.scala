@@ -18,7 +18,7 @@ object XNode {
 	implicit class BoolConst(val value: Boolean) extends ConstXNode with BoolXNode
 }
 
-/* OPERATION CLASSes */
+/* OPERATION CLASSes  */
 trait XOp extends (Int => String)
 
 
